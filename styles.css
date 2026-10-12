@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>المكتبة الشاملة × جيميناي</title>
+    <meta
+      name="description"
+      content="منصة عربية تجمع بين المكتبة الشاملة ومساعد جيميناي الذكي لتصفح الكتب، البحث، والمساعدة في الدراسة والبحث."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="container nav">
+          <div class="brand">
+            <div class="brand-mark">م</div>
+            <div>
+              <strong>المكتبة الشاملة</strong>
+              <small>× جيميناي</small>
+            </div>
+          </div>
+
+          <nav class="nav-links" aria-label="التنقل الرئيسي">
+            <a href="#features">المزايا</a>
+            <a href="#library">المكتبة</a>
+            <a href="#assistant">المساعد الذكي</a>
+            <a href="#contact">تواصل</a>
+          </nav>
+
+          <button class="primary-btn" id="openAssistantBtn">ابدأ المحادثة</button>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <span class="eyebrow">منصة عربية ذكية</span>
+              <h1>مكتبة شاملة، مع مساعد ذكي يدعم البحث والفهم.</h1>
+              <p>
+                اجمع بين خزانات المعرفة الواسعة في المكتبة الشاملة وبين قدرات جيميناي
+                في تلخيص النصوص، اقتراح الكتب، الإجابة عن الأسئلة، وتنظيم القراءة.
+              </p>
+
+              <div class="hero-actions">
+                <button class="primary-btn">استكشف المكتبة</button>
+                <button class="ghost-btn" id="openAssistantSecondaryBtn">تحدث مع جيميناي</button>
+              </div>
+
+              <ul class="stats">
+                <li>
+                  <strong>1500+</strong>
+                  <span>عنوان</span>
+                </li>
+                <li>
+                  <strong>24/7</strong>
+                  <span>مساعد متاح</span>
+                </li>
+                <li>
+                  <strong>4.9</strong>
+                  <span>تجربة مستخدم</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="hero-panel">
+              <div class="mini-card main-card">
+                <span class="tag">الأكثر طلبًا</span>
+                <h3>كتاب: التفسير وعلوم القرآن</h3>
+                <div class="meta-row">
+                  <span>العلوم الإسلامية</span>
+                  <span>4.8 ★</span>
+                </div>
+                <div class="progress-block">
+                  <label>تقدم القراءة</label>
+                  <div class="progress"><span style="width: 72%"></span></div>
+                </div>
+              </div>
+
+              <div class="mini-card chat-bubble">
+                <p>"أرِني كتبًا عن الفقه المقارن، مع ملخص مختصر لكل عنوان."</p>
+                <div class="reply-box">
+                  <strong>جيميناي:</strong>
+                  <span>أقترح لك 4 عناوين مناسبة مع ملخص سريع...</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="features" id="features">
+          <div class="container">
+            <div class="section-head">
+              <span class="eyebrow">لماذا هذه المنصة؟</span>
+              <h2>حل متكامل للبحث، القراءة، والتعلم</h2>
+            </div>
+
+            <div class="feature-grid">
+              <article class="feature-card">
+                <div class="icon">🔎</div>
+                <h3>بحث ذكي</h3>
+                <p>ابحث عن الكتب والموضوعات بطريقة أسرع وأوضح مع تفسير الفكرة الرئيسية.</p>
+              </article>
+
+              <article class="feature-card">
+                <div class="icon">📚</div>
+                <h3>تجميع المعرفة</h3>
+                <p>استخدم سلسلة من الكتب والمواضيع في نفس السياق لتوسيع الفهم.</p>
+              </article>
+
+              <article class="feature-card">
+                <div class="icon">🤖</div>
+                <h3>مساعد جيميناي</h3>
+                <p>اسأل عن ملخصات، أمثلة، اقتراحات، أو متطلبات دراسة محددة.</p>
+              </article>
+
+              <article class="feature-card">
+                <div class="icon">📈</div>
+                <h3>تجربة شخصية</h3>
+                <p>اقترح كتبًا بناءً على اهتماماتك وسجل قراءتك وموضوعاتك المفضلة.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="library" id="library">
+          <div class="container">
+            <div class="section-head split">
+              <div>
+                <span class="eyebrow">مكتبة متنوعة</span>
+                <h2>مجالات المعرفة المتعددة</h2>
+              </div>
+              <button class="ghost-btn">عرض الكل</button>
+            </div>
+
+            <div class="library-grid">
+              <article class="book-card">
+                <div class="book-cover blue">الفقه</div>
+                <div class="book-body">
+                  <h3>الفقه الإسلامي</h3>
+                  <p>مجموعات في الأحكام، المذاهب، والشرح.</p>
+                  <span>١٢٨ عنوانًا</span>
+                </div>
+              </article>
+
+              <article class="book-card">
+                <div class="book-cover gold">التفسير</div>
+                <div class="book-body">
+                  <h3>علوم القرآن</h3>
+                  <p>كتب التفسير، التلاوة، ومباحث القراءات.</p>
+                  <span>٩٦ عنوانًا</span>
+                </div>
+              </article>
+
+              <article class="book-card">
+                <div class="book-cover purple">السيرة</div>
+                <div class="book-body">
+                  <h3>السيرة النبوية</h3>
+                  <p>دراسة شخصية الرسول، وجوانب القيادة والحكمة.</p>
+                  <span>٧٣ عنوانًا</span>
+                </div>
+              </article>
+
+              <article class="book-card">
+                <div class="book-cover green">الحديث</div>
+                <div class="book-body">
+                  <h3>علوم الحديث</h3>
+                  <p>مؤلفات في الحديث الصحيح، الشرح، والعلل.</p>
+                  <span>١١٤ عنوانًا</span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="assistant" id="assistant">
+          <div class="container assistant-grid">
+            <div class="assistant-copy">
+              <span class="eyebrow">مساعد جيميناي</span>
+              <h2>اسأل عن أي موضوع واسمح للمساعد بتلخيصه لك</h2>
+              <p>
+                يمكنك طلب ملخص، مقارنة بين الكتب، توصية وفق اهتماماتك، أو مساعدة في
+                إعداد خطة دراسة مناسبة.
+              </p>
+
+              <div class="tips">
+                <span>مثال: ما أفضل كتب الفقه المتعلق بالزكاة؟</span>
+                <span>مثال: أعطني خطة دراسة لمدة شهر في التفسير</span>
+                <span>مثال: لخص هذا الكتاب في 5 نقاط</span>
+              </div>
+            </div>
+
+            <div class="chat-panel" aria-live="polite">
+              <div class="chat-header">
+                <div class="status-dot"></div>
+                <span>مساعد جيميناي</span>
+              </div>
+
+              <div class="chat-window" id="chatWindow">
+                <div class="message bot">
+                  <span>مرحبًا! أنا مساعد جيميناي. أستطيع مساعدتك في اقتراح الكتب، تلخيصها، أو إعداد خطة دراسة.</span>
+                </div>
+              </div>
+
+              <form id="chatForm" class="chat-form">
+                <label class="sr-only" for="userInput">اكتب سؤالك</label>
+                <input
+                  id="userInput"
+                  type="text"
+                  placeholder="اكتب سؤالك هنا..."
+                  autocomplete="off"
+                />
+                <button type="submit" class="primary-btn">إرسال</button>
+              </form>
+
+              <div class="api-box">
+                <label for="apiKeyInput">مفتاح Gemini API (اختياري)</label>
+                <input id="apiKeyInput" type="password" placeholder="ضع مفتاح Gemini API هنا" />
+                <button type="button" class="small-btn" id="saveApiKeyBtn">حفظ</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer" id="contact">
+        <div class="container footer-inner">
+          <div>
+            <strong>المكتبة الشاملة × جيميناي</strong>
+            <p>منصة عربية تجمع بين المعرفة، القراءة، والمساعدة الذكية.</p>
+          </div>
+
+          <div class="footer-links">
+            <a href="#features">المزايا</a>
+            <a href="#library">المكتبة</a>
+            <a href="#assistant">المساعد</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
